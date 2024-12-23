@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: fonte-importada;
+    src: url(./LuckiestGuy-Regular.ttf);
+}
+
 body{
     background-color: gainsboro;
 }
@@ -40,12 +45,12 @@ header{
 #textoMeio{
     border: 1px solid;
     font-size: 53px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: fonte-importada;
     text-align: center;
     height: 25vh;
     padding-top: 8vh;
     color: yellow;
-    text-shadow:3px 3px black;
+    text-shadow:3px 3px  black;
 }
 
 #circulo{
@@ -94,8 +99,101 @@ header{
 
 #textowelcome{
     margin: auto;
-    font-size: 90px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-family: fonte-importada;
     color: rgb(255, 238, 216);
     text-shadow: 2px 2px black;
+}
+
+#ajudar{
+    border: 1px solid black;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 247, 237);
+}
+
+#how{
+    border: 1px solid black;
+    font-family: fonte-importada;
+    color: rgb(255, 212, 156);
+    text-align: center;
+    height: 55vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 150px;
+    text-shadow: -4px 4px black;
+}
+
+#textobaixo{
+    border: 1px solid black;
+    width: 50%;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#creating{
+    border: 1px solid black;
+    height: 130vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+#titulocriar{
+    border: 1px solid black;
+    height: 35vh;
+    width: 70%;
+    font-family: fonte-importada;
+    font-size: 180px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(178, 224, 224);
+    text-shadow: -4px 4px black;
+}
+
+#meiocriar{
+    display: flex;
+    border: 1px solid black;
+    height: 45vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+#imgcriar{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    margin: 30px;
+}
+
+#textocriar{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botaocriar{
+    border: 1px solid black;
+    height: 80px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+button{
+    display: block;
+    font-family: fonte-importada;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+    height: 100%;
+    width: 130px;
+    border-radius: 100px;
+    background-color: rgb(134, 199, 199);
+    cursor: pointer;
 }
