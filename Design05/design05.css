@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+header {
+    border: 2px solid white;
+    display: flex;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    border: 2px solid white;
+    display: flex;
+    gap: 3rem;
+}
+
+nav a {
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(34, 34, 34);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    border: 2px solid white;
+    font-size: 25px;
+}
+
+main {
+    border: 2px solid white;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info {
+    border: 2px solid white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 350px;
+    padding: 30px;
+}
+
+.imagem {
+    border: 2px solid white;
+    width: 400px;
+    height: 350px;
+}
+
+.botoes {
+    border: 2px solid white;
+    display: flex;
+    gap: 30px;
+}
+
+.botoes a {
+    border: 2px solid white;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes a:hover {
+    background-color: white;
+    color: rgb(34, 34, 34);
+}
