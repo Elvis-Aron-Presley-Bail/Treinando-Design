@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./para.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Explore</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Halloween</h1>
+        <img src="./gate-left.png" id="portaoEsquerda">
+        <img src="./gate-right.png" id="portaoDireita">
+        <img src="./grass.png" id="grama">
+        <img src="./tree-left.png" id="arvoreEsquerda">
+        <img src="./tree-right.png" id="arvoreDireita">
+    </section>
+
+    <section class="sobre">
+        sobre
+    </section>
+    
+    <script>
+
+        let portaoEsquerda = document.querySelector('#portaoEsquerda')
+        let portaoDireita = document.querySelector('#portaoDireita')
+        let arvoreEsquerda = document.querySelector('#arvoreEsquerda')
+        let arvoreDireita = document.querySelector('#arvoreDireita')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY
+            portaoEsquerda.style.right = value * 0.40 + 'px'
+            portaoDireita.style.left = value * 0.40 + 'px'
+            arvoreEsquerda.style.right = value * 0.40 + 'px'
+            arvoreEsquerda.style.bottom = value * 0.40 + 'px'
+            arvoreDireita.style.left = value * 0.40 + 'px'
+            arvoreDireita.style.bottom = value * 0.40 + 'px'
+        })
+
+    </script>
+
+</body>
+
+</html>
