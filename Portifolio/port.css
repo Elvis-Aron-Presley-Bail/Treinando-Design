@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: greenyellow;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+}
+
+header {
+    border: 2px solid black;
+    display: flex;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav ul {
+    border: 2px solid black;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.principal {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* let man = document.querySelector('#man')
+        let pyramid = document.querySelector('#pyramid')
+        let text = document.querySelector('#text')
+        let stone = document.querySelector('#stone')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY
+            pyramid.style.right = value * 0.25 + 'px'
+            text.style.top = value * 0.80 + 'px'
+            stone.style.right = value * 0.70 + 'px'
+            man.style.left = value * 0.40 + 'px' 
