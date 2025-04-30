@@ -191,3 +191,76 @@ button {
     justify-content: center;
     gap: 60px;
 }
+
+.meio3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9EFDE;
+    width: 100%;
+    border-radius: 40px;
+    padding: 64px 20px 20px 20px;
+}
+
+.meio3pequeno {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 40px;
+    height: 856px;
+    font-size: 48px;
+    text-align: center;
+    justify-content: center;
+    color: #232E26;
+}
+
+.meio3pequeno img {
+    height: 700px;
+}
+
+.meio3pequeno p {
+    width: 100%;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    background-color: #37423a;
+    width: 100%;
+    padding: 60px 80px;
+    gap: 10px;
+}
+
+.depoimentoCaixa {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 387px;
+}
+
+.depoimentoTxt {
+    color: #D9EFDE;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 780px;
+    height: 100%;
+}
+
+.testi {
+    font-size: 14px;
+}
+
+.ilove {
+    font-size: 50px;
+}
+
+.sara {
+    font-size: 24px;
+}
+
+.depoimentoCaixa button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 121px;
+}
